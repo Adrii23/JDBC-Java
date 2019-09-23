@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class Horoscope {
 	
 	private ConnectionToSQL conn= new ConnectionToSQL();
-    int dateFlag = 0;
+    	int dateFlag = 0;
     
 	public  void firstPrediction() {
 	conn.getDataFromDB();
